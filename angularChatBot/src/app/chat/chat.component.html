@@ -1,0 +1,7 @@
+<nb-chat title="Virtual Assistant">
+  <nb-chat-message *ngFor="let msg of messages" type="text" [message]="msg.text" [reply]="msg.reply"
+    [sender]="msg.sender" [date]="msg.date" [avatar]="msg.avatar">
+  </nb-chat-message>
+
+  <nb-chat-form (send)="sendMessage($event)"></nb-chat-form>
+</nb-chat>
