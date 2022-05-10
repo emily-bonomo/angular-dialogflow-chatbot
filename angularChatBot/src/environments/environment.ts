@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   firstName: 'Emily',
   dialogflow: {
-    projectId: "tripplanner-ekfe"
+    projectId: "YOUR_GOOGLE_PROJECT_ID"
   },
   backend: {
     baseurl: "http://localhost:3000/",
